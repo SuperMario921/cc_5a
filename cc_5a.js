@@ -40,3 +40,8 @@ function processPayroll(employee) {
     };
 }
 
+//added payroll processing loop for each employee
+for (const emp of employees) {
+    console.log(processPayroll(emp));
+}
+
